@@ -26,3 +26,8 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an upwards pointing arrow of specified width
+void print_arrow() {
+  print_triangle(5, 5);
+  print_square(8, 5);
+}
